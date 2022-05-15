@@ -24,6 +24,7 @@ Links to websites:
 - Beautiful Soup
 - Mongo DB
 - Flask
+- Git
 
 ## Summary 
 In summary, the web app enabled displaying latest Mars news, a featured image, Mars facts in a table, and images of the four Mars hemespheres. 
