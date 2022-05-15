@@ -13,4 +13,13 @@ A README.md that describes the purpose of the repository. Although there is no g
 
 ## Methods
 
+Web scraping on news and images was performed using scraping tools and a website in NASA news site (Link: https://redplanetscience.com) and image sites (Link:https://spaceimages-mars.com, https://marshemispheres.com). The latest news (title and paragraph) was scraped autamically and was saved in Mongo DB database, and retrieved for displaying on the HTML page. In addition, facts about Mars (and the Earth) was extracted from a table available in a website (Link: https://galaxyfacts-mars.com). The Chrome Webdriver and Splint was used during this process. Initially all the codes were written in Python using Jupyter notebook and the code was transferred into a Python script (Scraping.py). The Flask application was written using VS Code. 
+
+**Software tools:**
+Python 3.7 and dependencies
+Jupyter Notebook
+Web driver
+Splint
+
+
 ## Summary
