@@ -13,13 +13,26 @@ A README.md that describes the purpose of the repository. Although there is no g
 
 ## Methods
 
-Web scraping on news and images was performed using scraping tools and a website in NASA news site (Link: https://redplanetscience.com) and image sites (Link:https://spaceimages-mars.com, https://marshemispheres.com). The latest news (title and paragraph) was scraped autamically and was saved in Mongo DB database, and retrieved for displaying on the HTML page. In addition, facts about Mars (and the Earth) was extracted from a table available in a website (Link: https://galaxyfacts-mars.com). The Chrome Webdriver and Splint was used during this process. Initially all the codes were written in Python using Jupyter notebook and the code was transferred into a Python script (Scraping.py). The Flask application was written using VS Code. 
+A web application was developed for web scraping on news and images of Mars using scraping tools and a [NASA news site](https:/redplanetscience.com) and a website for[a featured image](https://spaceimages-mars.com), and another mars image site for Mars hemispheres. [Mars hemispheres](https://marshemispheres.com). The latest news (title and paragraph) was scraped autamically and was saved in Mongo DB database, and retrieved for displaying on the HTML page. In addition, a table of facts about Mars (and the Earth) was extracted from the [Galaxy Facts website](https://galaxyfacts-mars.com). The Chrome Webdriver and Splint was used during this process. Initially all the codes were written in Python using Jupyter notebook and the code was transferred into a Python script (Scraping.py). The Flask application was written using VS Code. 
 
-**Software tools:**
+The web application was further improved as follows:
+  - mobile responsive
+  - included a better background image
+  - the Mars facts table has striped rows
+  - Mars hemispheres appear as thumb nails
+
+Links to websites:
+- [NASA Mars News](https:/redplanetscience.com) 
+- [Featured Mars Image](https://spaceimages-mars.com)
+- [Mars hemispheres](https://marshemispheres.com)
+- [Galaxy Facts website](https://galaxyfacts-mars.com).
+
+**Software tools and database:**
 Python 3.7 and dependencies
 Jupyter Notebook
 Web driver
 Splint
-
+Beautiful Soup 4.0
+Mongo DB
 
 ## Summary
